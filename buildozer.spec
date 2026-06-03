@@ -19,7 +19,7 @@ source.include_exts = py,png,jpg,kv,atlas,mp3,wav
 version = 1.0
 
 # (list) Application requirements
-requirements = python3,kivy==2.3.0,kivymd==1.1.1,numpy
+requirements = python3,kivy==2.3.0,kivymd==1.1.1,pillow,numpy
 
 # (str) Supported orientations
 orientation = portrait
@@ -35,6 +35,12 @@ android.minapi = 21
 
 # (str) Android logcat filters to use
 android.logcat_filters = *:S python:D
+
+# (bool) Accept SDK license automatically
+android.accept_sdk_license = True
+
+# (str) p4a branch to use
+p4a.branch = master
 
 [buildozer]
 
