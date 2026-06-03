@@ -31,7 +31,10 @@ android.permissions = INTERNET,VIBRATE
 android.api = 33
 
 # (int) Minimum API your APK / AAB will support.
-android.minapi = 24
+android.minapi = 21
+
+# (str) Android NDK version to use
+android.ndk = 25b
 
 # (str) Android logcat filters to use
 android.logcat_filters = *:S python:D
