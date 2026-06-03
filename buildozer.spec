@@ -36,6 +36,9 @@ android.minapi = 24
 # (str) Android logcat filters to use
 android.logcat_filters = *:S python:D
 
+# (str) The Android archs to build for
+android.archs = arm64-v8a
+
 # (bool) Accept SDK license automatically
 android.accept_sdk_license = True
 
